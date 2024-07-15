@@ -70,6 +70,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s, color 0.3s;
     border-radius: 5px;
+    display:flex;
 }
 
 .btn-group button:hover,
@@ -93,3 +94,10 @@ body {
 #search:focus {
     border-color: #0984e3; 
 }
+@media (max-width:675px){
+    
+.btn-group{
+    flex-direction:column;
+}
+        
+    }
