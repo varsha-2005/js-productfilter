@@ -72,7 +72,13 @@ body {
     transition: background-color 0.3s, transform 0.3s, color 0.3s;
     border-radius: 5px;
 }
-
+.btn-group{
+    gap:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 .btn-group button:hover,
 .btn-group .btn-clicked {
     background-color: #0984e3; 
